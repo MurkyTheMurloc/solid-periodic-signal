@@ -1,6 +1,6 @@
 # solid-periodic-signal
 
-The **Periodic Signal Creator** is a utility function for creating periodic signals that can be started and stopped. This utility is useful in scenarios where you need to perform periodic tasks, such as updating data or triggering actions at specified intervals.
+The **Perioded Signal** is a utility function for creating periodic signals that can be started and stopped. This utility is useful in scenarios where you need to perform periodic tasks, such as updating data or triggering actions at specified intervals.
 
 ## Motivation
 
@@ -31,7 +31,7 @@ function App() {
         setCount((prev) => prev + 1);
     });
     startCounting();
- 
+
     return (
         <>
             <div>
@@ -61,5 +61,3 @@ function App() {
 }
 
 ```
-
-
