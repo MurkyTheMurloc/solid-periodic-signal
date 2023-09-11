@@ -6,7 +6,7 @@ The **Perioded Signal** is a utility function for creating periodic signals that
 
 In many applications, there's a need to execute certain functions or tasks at regular intervals. For example, you might want to periodically update data from a remote server, check for new messages, or refresh a user interface. To achieve this, you can use JavaScript's `setInterval` function. However, managing and controlling these periodic tasks can become complex as your application grows. The **Periodic Signal Creator** simplifies this by providing an easy-to-use interface for starting and stopping periodic tasks.
 
-## Usage
+
 
 ## Usage
 
@@ -23,7 +23,7 @@ The function returns an array containing two functions:
 
 
 ```tsx
-import { createPeriodicSignal } from 'periodic-signal-creator';
+import { createPeriodicSignal } from 'solid-periodic-signal';
 
 function App() {
     const [count, setCount] = createSignal(0);
@@ -61,3 +61,24 @@ function App() {
 }
 
 ```
+
+
+### Support Me
+
+if you like my work feel free to hydrate me so I always stay focused
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-yellow?style=flat-square)](https://www.buymeacoffee.com/MurkyTheMurloc)
+
+
+### License
+
+MIT License
+
+Copyright (c) 2022 MurkyTheMurloc
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
