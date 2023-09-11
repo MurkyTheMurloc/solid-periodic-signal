@@ -4,7 +4,7 @@ The **Perioded Signal** is a utility function for creating periodic signals that
 
 ## Motivation
 
-In many applications, there's a need to execute certain functions or tasks at regular intervals. For example, you might want to periodically update data from a remote server, check for new messages, or refresh a user interface. To achieve this, you can use JavaScript's `setInterval` function. However, managing and controlling these periodic tasks can become complex as your application grows. The **Periodic Signal Creator** simplifies this by providing an easy-to-use interface for starting and stopping periodic tasks.
+In many applications, there's a need to execute certain functions or tasks at regular intervals. For example, you might want to periodically update data from a remote server, check for new messages, or refresh a user interface. To achieve this, you can use JavaScript's `setInterval` function. However, managing and controlling these periodic tasks can become complex as your application grows. The **solid-periodic-signal** simplifies this by providing an easy-to-use interface for starting and stopping periodic tasks.
 
 
 
